@@ -1,6 +1,8 @@
-package com.chunhoong.featureaccessservice;
+package com.chunhoong.featureaccessservice.repository;
 
 import java.util.Optional;
+
+import com.chunhoong.featureaccessservice.entity.FeatureAccess;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

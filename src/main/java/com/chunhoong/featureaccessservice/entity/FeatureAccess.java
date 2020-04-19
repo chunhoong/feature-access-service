@@ -1,4 +1,4 @@
-package com.chunhoong.featureaccessservice;
+package com.chunhoong.featureaccessservice.entity;
 
 import lombok.experimental.Accessors;
 

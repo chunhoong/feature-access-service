@@ -1,8 +1,10 @@
-package com.chunhoong.featureaccessservice;
+package com.chunhoong.featureaccessservice.service;
 
+import com.chunhoong.featureaccessservice.entity.FeatureAccess;
 import com.chunhoong.featureaccessservice.dto.FeatureAccessCreationDTO;
 import com.chunhoong.featureaccessservice.dto.FeatureAccessRetrievalDTO;
 import com.chunhoong.featureaccessservice.exception.ResourceNotFoundException;
+import com.chunhoong.featureaccessservice.repository.FeatureAccessRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
